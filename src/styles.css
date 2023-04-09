@@ -1,12 +1,14 @@
-:root{
-    --brading-color:#80bbb9;
+:root {
+  --brading-color: #80bbb9;
 }
 
 .hero {
   padding: 160px 20px;
   padding-left: 100px;
 }
-
+.hero h1 {
+  font-size: 50px;
+}
 .hero h2 {
   font-family: poppins;
   font-size: 25px;
@@ -16,7 +18,7 @@ img {
   height: 50%;
   position: relative;
   left: 600px;
-  top: -230px;
+  top: -270px;
 }
 .btn-branding {
   background: #80bbb9;
