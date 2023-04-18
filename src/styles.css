@@ -1,10 +1,7 @@
-:root {
-  --brading-color: #80bbb9;
-}
-
 .hero {
   padding: 160px 20px;
   padding-left: 100px;
+  padding-bottom: 0px;
 }
 .hero h1 {
   font-size: 50px;
@@ -13,7 +10,7 @@
   font-family: poppins;
   font-size: 25px;
 }
-img {
+.hero img {
   width: 400px;
   height: 50%;
   position: relative;
@@ -30,6 +27,69 @@ img {
 }
 footer {
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 0px;
   font-size: 40px;
+}
+
+footer i {
+  margin: 0 20px;
+}
+.btn-primary {
+  background-color: #80bbb9;
+  display: block;
+  margin: auto;
+}
+.contact-head {
+  text-align: center;
+  padding-top: 10px;
+}
+.form-group {
+  width: 600px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+.service-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+.service-paragraphs p {
+  background: #ffffff;
+  margin: 10px;
+  text-align: center;
+}
+.projects:hover {
+  box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+  background: #fff;
+}
+.service-paragraphs img {
+  width: 300px;
+}
+.contact-head {
+  font-size: 50px;
+  font-family: "raleway-bold";
+  padding-top: 40px;
+}
+.portfolio-title {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 50px;
+  font-family: "raleway-bold";
+}
+.about-title{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    font-family: "raleway-bold";
+}
+.services:hover{
+box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+
+}
+.services i{
+    font-size: 40px;
+    padding-bottom: 20px;
+    background-color: #f9f9fd;
+}
+h4{
+    text-align: center;
 }
