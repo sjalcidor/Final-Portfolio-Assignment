@@ -87,6 +87,12 @@ footer i {
     padding-top: 40px;
     font-family: "raleway-bold";
 }
+.about-title2{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 40px;
+  font-family: "raleway-bold";
+}
 .services:hover{
 box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
 
@@ -104,4 +110,35 @@ h4{
 }
 .about-p{
   padding: 30px;
+}
+@media (max-width: 576px){
+
+  .hero h1{
+    font-size: 25px;
+  }
+.hero h2{
+  font-size: 20px;
+}
+footer{
+  padding-top: 60px;
+}
+.form-group{
+  width:300px;
+}
+.about-title{
+  font-size: 25px;
+}
+.services{
+  display: none;
+}
+
+.about-title2{
+  display: none;
+}
+.head{
+  font-size: 20px;
+}
+.portfolio-title{
+  font-size: 25px;
+}
 }
